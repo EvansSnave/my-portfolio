@@ -12,6 +12,22 @@ main {
   }
 }
 
+button {
+  margin: 1rem 0;
+  padding: 13px 15px;
+  background-color: transparent;
+  border: 1px solid #000;
+  color: #000;
+  font-weight: 500;
+  letter-spacing: 0.0625rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.titles {
+  margin: 1rem 0;
+}
+
 .messages {
   display: flex;
   gap: 3vw;
@@ -22,8 +38,8 @@ main {
 
 .full-stack {
   border-right: 0.15em solid $forth-color;
-  margin: 0 auto;
   border-color: transparent;
+  margin-bottom: 1.5rem;
   @include phone-size {
     font-size: 130%;
   }
