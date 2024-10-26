@@ -6,6 +6,7 @@
   border: 0;
   text-decoration: none;
   list-style: none;
+  line-height: 1.5rem;
   text-rendering: optimizeLegibility;
   text-size-adjust: none;
   box-sizing: border-box;
@@ -61,4 +62,9 @@ a {
 
 button {
   cursor: pointer;
+}
+
+p {
+  color: #837165;
+  font-size: var(--fourth-f-size);
 }
