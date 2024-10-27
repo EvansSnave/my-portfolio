@@ -2,8 +2,8 @@
 @import '../../../assets/styles/responsive';
 
 footer {
-  height: 50vh;
-  background-color: $third-color;
+  height: 47vh;
+  background-color: $second-color;
   padding: 5vh 15vw;
   display: flex;
   justify-content: center;
@@ -53,6 +53,7 @@ div {
 }
 
 p {
+  color: black;
   @include phone-size {
     font-size: 4vw;
   }
